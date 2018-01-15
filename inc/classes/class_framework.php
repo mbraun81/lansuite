@@ -34,6 +34,7 @@ class framework
     public $main_header_csscode = "";          // Headercode for CSS-Code
     public $IsMobileBrowser = false;
     public $pageTitle = '';
+    
   /**#@-*/
   
   /**
@@ -42,7 +43,7 @@ class framework
     public function __construct()
     {
         // Set Script-Start-Time, to calculate the scripts runtime
-        $this->design = $design;
+//        $this->design = $design; // quatscht. eine klassen var auf eine uninitialisierte var zu setzen
         $this->timer = time();
         $this->timer2 = explode(' ', microtime());
 
