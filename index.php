@@ -87,13 +87,13 @@ function myErrorHandler($errno, $errstr, $errfile, $errline) {
             }
     }
 
-    $err = sprintf("PHP %s: %s in %s on line %d", $errors, $errstr, $errfile, $errline);
-    if (ini_get('log_errors')) {
-        error_log($err);
-    }
+//    $err = sprintf("PHP %s: %s in %s on line %d", $errors, $errstr, $errfile, $errline);
+//    if (ini_get('log_errors')) {
+//       error_log($err);
+//    }
 
-    $PHPErrors .= $err .'<br />';
-    $PHPErrorsFound = 1;
+//    $PHPErrors .= $err .'<br />';
+//    $PHPErrorsFound = 1;
 
     // Write to DB-Log
     if (isset($db) and $db->success) {
