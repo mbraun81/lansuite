@@ -7,7 +7,7 @@ require __DIR__ . '/vendor/autoload.php';
 // LanSuite might not work properly anymore.
 // Right now we depend on it. This will change in future
 // when the development of LanSuite continues and is getting modernized.
-error_reporting(E_ALL ^ E_NOTICE ^ E_DEPRECATED ^ E_STRICT);
+error_reporting(0);
 
 if (function_exists('ini_set')) {
     // Disable SID in URL
