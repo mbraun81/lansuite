@@ -1,3 +1,7 @@
 /inc/base/config.php
 
 /vendor/
+
+/.buildpath
+/.project
+/.settings/
