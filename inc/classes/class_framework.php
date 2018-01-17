@@ -34,6 +34,7 @@ class framework
     public $main_header_csscode = "";          // Headercode for CSS-Code
     public $IsMobileBrowser = false;
     public $pageTitle = '';
+    
   /**#@-*/
 
   /**
