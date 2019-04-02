@@ -13,6 +13,8 @@ LanSuite-*_checksums.txt
 
 # Generated folder/files
 /vendor/
+/bin/phpcbf
+/bin/phpcs
 
 # Docs
 .DS_Store
